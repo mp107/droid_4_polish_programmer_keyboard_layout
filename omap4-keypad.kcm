@@ -274,7 +274,9 @@ key 2 {
     label, number:                      '2'
     base:                               '2'
     shift:                              '@'
-    ctrl, alt, meta:                    none
+    alt:                                '2'
+    shift+alt:                          '@'
+    ctrl, meta:                         none
 }
 
 key 3 {
@@ -350,20 +352,24 @@ key SPACE {
 key ENTER {
     label:                              '\n'
     base:                               '\n'
-    ctrl, alt, meta:                    none
+    alt:                                '\n'
+    ctrl, meta:                         none
 }
 
 key TAB {
     label:                              '\t'
     base:                               '\t'
-    ctrl, alt, meta:                    none
+    alt:                                '\t'
+    ctrl, meta:                         none
 }
 
 key COMMA {
     label, number:                      ','
     base:                               ','
     shift:                              ';'
-    ctrl, alt, meta:                    none
+    alt:                                ','
+    shift+alt:                          ';'
+    ctrl, meta:                         none
 }
 
 key PERIOD {
@@ -395,14 +401,18 @@ key MINUS {
     label, number:                      '-'
     base:                               '-'
     shift:                              '_'
-    ctrl, alt, meta:                    none
+    alt:                                '-'
+    shift+alt:                          '_'
+    ctrl, meta:                         none
 }
 
 key EQUALS {
     label, number:                      '='
     base:                               '='
     shift:                              '+'
-    ctrl, alt, meta:                    none
+    alt:                                '='
+    shift+alt:                          '+'
+    ctrl, meta:                         none
 }
 
 key LEFT_BRACKET {
