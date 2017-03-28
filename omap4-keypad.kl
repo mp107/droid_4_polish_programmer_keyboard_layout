@@ -88,8 +88,10 @@ key 215   AT                WAKE_DROPPED
 
 # OK key
 key 232   CTRL_RIGHT       WAKE_DROPPED
+
 # CAPS LOCK key
 key 222   ALT_LEFT         WAKE_DROPPED
+
 # SYM key
 key 162   MEDIA_EJECT       WAKE_DROPPED
 
